@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'debug/flutter_json_viewer.dart';
+import 'ui/view/live_stream/live_stream_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(),
-      home: FlutterJsonViewerPage(),
+    //  home: FlutterJsonViewerPage(),
+      home: LiveStreamPage(),
     );
   }
 }
