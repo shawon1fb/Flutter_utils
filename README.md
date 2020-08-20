@@ -24,3 +24,6 @@ keep optimal solution for future work.
       flutter_native_image: ^0.0.5
       image_picker: ^0.6.7+4
       
+      #toast
+      toast: ^0.1.5
+      
