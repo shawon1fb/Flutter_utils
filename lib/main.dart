@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'debug/flutter_json_viewer.dart';
+import 'debug/play_ground.dart';
 import 'ui/view/live_stream/live_stream_page.dart';
+import 'ui/view/transparent_image/transparent_image_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,17 +16,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Utils',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
-
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(),
-    //  home: FlutterJsonViewerPage(),
-      home: LiveStreamPage(),
+      //  home: FlutterJsonViewerPage(),
+      //  home: LiveStreamPage(),
+      // home: TransParentImagePage(),
+      home: PlayGround(),
     );
   }
 }
+
 class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
