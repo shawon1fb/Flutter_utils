@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_utils/core/utils/image_picker_methods.dart';
+import 'file:///C:/Users/shawon/AndroidStudioProjects/flutter_utils/lib/core/utils/image/image_picker_methods.dart';
 
 class PlayGround extends StatefulWidget {
   @override
